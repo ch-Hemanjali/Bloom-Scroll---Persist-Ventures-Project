@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Chakra</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/chakra1.css">
+    <link rel="stylesheet" href="css/chakra2.css">
+    <link rel="stylesheet" href="css/chakra3.css">
+    <link rel="stylesheet" href="css/chakra4.css">
+    <link rel="stylesheet" href="css/chakra5.css">
+    <link rel="stylesheet" href="css/chakra6.css">
+    <link rel="stylesheet" href="css/chakra7.css">
+</head>
+<body>
+    <div class="home-page" >
+      <div class="banner" id="banner">
+        <div>
+            <div class="logo-container">
+            <!-- Logo or Mascot -->
+            <div class="logo-icon">BS</div>
+            <!-- Animated Logotype -->
+            <div class="logo-text">
+                <span>B</span><span>l</span><span>o</span><span>o</span><span>m</span>
+                <span>S</span><span>c</span><span>r</span><span>o</span><span>l</span><span>l</span>
+            </div>
+        </div>
+        </div>
+        <div class="actions">
+            <a href="#" class="about-us">About Us</a>
+            <a href="#" class="sign-in">Sign In</a>
+            <a href="#" class="register">Register</a>
+            <a href="#" class="support">Support</a>
+        </div>
+    </div>
+
+    <div class="theme-section" id="theme-section">
+      <h2>Colors significantly affect mood and behavior, and their influence varies based on context, culture, and individual perception. Leveraging colors effectively in design, branding, and environments can enhance experiences, evoke desired emotions, and improve mental well-being.</h2>
+        <h3>Choose Your Theme - Set Your Mood</h3>
+        <div class="theme-picker">
+            <label for="theme">Default Themes:</label>
+            <button class="color1" onclick="changeTheme('#f5f5f5', '#333')"></button>
+            <button class="color2" onclick="changeTheme('#e0f7fa', '#00695c')"></button>
+            <button class="color3" onclick="changeTheme('#fce4ec', '#880e4f')"></button>
+            <button class="color4" onclick="changeTheme('#f9fbe7', '#33691e')"></button>
+        </div>
+        <div class="custom-color">
+            <div class="custom-icon">
+                <label for="bg-color">
+                    <div class="color-preview" id="bg-preview" style="background-color: #f5f5f5;"></div>
+                </label>
+                <input type="color" id="bg-color" title="Choose Background Color" onchange="updatePreview('bg')">
+            </div>
+            <div class="custom-icon">
+                <label for="text-color">
+                    <div class="color-preview" id="text-preview" style="background-color: #333;"></div>
+                </label>
+                <input type="color" id="text-color" title="Choose Text Color" onchange="updatePreview('text')">
+            </div>
+            <button class="apply-button" onclick="applyCustomColors()">Apply</button>
+        </div>
+    </div>
+
+    <header>
+      <h1>Negative Effects of Mindless Scrolling</h1>
+      <p>Understanding the psychological and emotional impacts</p>
+  </header>
+
+
+  <div class="section left">
+    <div class="text"><strong> Engagement:</strong> Scrolling often emphasizes quick, surface-level interaction rather than fostering meaningful connections.</div>
+    <img src="images/superfical_engagement.jpg" alt="Superficial Engagement" class="image">
+</div>
+<div class="section right">
+  <img src="images/emotional_exhaustion.jpg" alt="Emotional Exhaustion" class="image">
+    <div class="text"><strong>Emotional Exhaustion:</strong> Overexposure to negative or irrelevant content can drain emotional energy and leave users feeling fatigued.</div>
+</div>
+<div class="section left">
+    <div class="text"><strong>Loss of Focus:</strong> Mindless scrolling contributes to reduced attention spans and difficulty in concentrating on purposeful tasks.</div>
+    <img src="images/loss_of_focus.jpg" alt="Loss of Focus" class="image">
+</div>
+<div class="section right">
+  <img src="images/disconnection_from_values.jpg" alt="Disconnection from Values" class="image">
+    <div class="text"><strong>Disconnection from Values:</strong> Algorithms prioritize sensational content, leading users away from what aligns with their personal values.</div>
+</div>
+<div class="section left">
+    <div class="text"><strong>Reduced Empathy:</strong> Divisive content can erode users' capacity for empathy and compassion.</div>
+    <img src="images/reduced_empathy.jpg" alt="Reduced Empathy" class="image">
+</div>
+
+
+</div>
+      <br/>
+      <center>
+        <h3 class="banner2-title" id="bottom-scroll">Break free from mindless scrolling: Set boundaries, curate your feed, and embrace purposeful digital habits for a balanced life</h3>
+        <h1 class="banner2-title" id="bottom-scroll">Bloom Scroll!</h1>
+      </center>
+    <div class="chakra-container">
+        <div class="chakra-title" id="chakraTitle">Bloom Scroll!!!!!!!!!!!!!!</div>
+    <div class="chakra chakra-1" id="chakra-1" style="--orb-start-color: #530b60; --orb-middle-color: #bc6dca; --orb-end-color: #fff;">
+        <div class="orbit orbit1">
+            <div class="value">Decision Paralysis</div>
+            <div class="value">Lack of Direction</div>
+            <div class="value">Burnout in Contributors</div>
+            <div class="value">Conflicts in Vision</div>
+            <div class="value">Overidealization</div>
+        </div>
+    </div>
+    <div class="chakra chakra-2" id="chakra-2" style="--orb-start-color: #2d1493; --orb-middle-color: #6f62b7; --orb-end-color: #fff;">
+        <div class="orbit orbit2">
+            <div class="value">Over-Reliance on Subjectivity</div>
+            <div class="value">Difficulty in Measuring Success</div>
+            <div class="value">Neglect of Practical Considerations</div>
+            <div class="value">Encourage Regular Reflection</div>
+            <div class="value">Difficulty in Measuring Success</div>
+        </div>
+    </div><br/><br/>
+    <div class="chakra chakra-3" id="chakra-3" style="--orb-start-color: #116479; --orb-middle-color: #5892ab; --orb-end-color: #fff;">
+        <div class="orbit orbit3">
+            <div class="value">Overdependence on Technology</div>
+            <div class="value">Loss of Authenticity</div>
+            <div class="value">Overdependence on Technology</div>
+            <div class="value">Privacy Concerns</div>
+            <div class="value">Information Overload</div>
+        </div>
+    </div><br/><br/><br/>
+    <div class="chakra chakra-4" id="chakra-4" style="--orb-start-color: #147f22; --orb-middle-color: #83c888; --orb-end-color: #fff;">
+        <div class="orbit orbit4">
+            <div class="value">Emotional Overload</div>
+            <div class="value">Selective Empathy</div>
+            <div class="value">Addiction to Emotional Content</div>
+            <div class="value">Emotional Overload</div>
+            <div class="value">Echo Chambers</div>
+        </div>
+    </div><br/>
+    <div class="chakra chakra-5" id="chakra-5" style="--orb-start-color: #ff6347; --orb-middle-color: #ff9966; --orb-end-color: #fff;">
+        <div class="orbit orbit5">
+          <div class="value">Over-Validation of Personal Beliefs</div>
+          <div class="value">Overdependence on Algorithmic Choices</div>
+          <div class="value">Pressure to Perform</div>
+          <div class="value">Over-Validation of Personal Beliefs</div>
+          <div class="value">Loss of Spontaneity</div>
+        </div>
+    </div><br/><br/>
+    <div class="chakra chakra-6" id="chakra-6" style="--orb-start-color: #c42f83; --orb-middle-color: #c16b96; --orb-end-color: #fff;">
+        <div class="orbit orbit6">
+          <div class="value">Enhanced Creativity</div>
+          <div class="value">Autonomy and Empowerment</div>
+          <div class="value">Fluid Collaboration</div>
+          <div class="value">Enhanced Creativity</div>
+          <div class="value">Resilience and Adaptability</div>
+        </div>
+    </div><br/><br/>
+    <div class="chakra chakra-7" id="chakra-7" style="--orb-start-color: #d92929; --orb-middle-color: #e05555; --orb-end-color: #fff;">
+        <div class="orbit orbit7">
+          <div class="value">Enhanced Stability</div>
+          <div class="value">Sense of Belonging</div>
+          <div class="value">Trust and Security</div>
+          <div class="value">Enhanced Stability</div>
+          <div class="value">Focused Growth</div>
+        </div>
+</div>
+</div>
+</div>
+<div class="nature-content" id="natureContent">
+    
+</div>
+<footer style="background-color: #f8f9fa; padding: 40px 20px; font-family: Arial, sans-serif; font-size: 14px; color: #333; align-content: center;">
+  <div style="max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-between;">
+    
+    
+    <!-- Policies Section -->
+    <div style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+      <h3 style="margin-bottom: 15px; font-size: 16px; font-weight: bold;">Policies</h3>
+      <ul style="list-style: none; padding: 0; margin: 0;">
+        <li><a href="#terms-of-use" style="text-decoration: none; color: #333;">Terms of Use</a></li>
+        <li><a href="#privacy-policy" style="text-decoration: none; color: #333;">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <!-- Support Section -->
+    <div style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+      <h3 style="margin-bottom: 15px; font-size: 16px; font-weight: bold;">Support</h3>
+      <ul style="list-style: none; padding: 0; margin: 0;">
+        <li><a href="#support" style="text-decoration: none; color: #333;">Support</a></li>
+        <li><a href="mailto:support@bloom.com" style="text-decoration: none; color: #333;">support@bloom.com</a></li>
+        <li><a href="mobile:+91 xxxxxxxxxx" style="text-decoration: none; color: #333;">+91 xxxxxxxxxx</a></li>
+      </ul>
+    </div>
+<!-- Social media Section -->
+<div style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+  <h3 style="margin-bottom: 15px; font-size: 16px; font-weight: bold;">Follow Us</h3>
+  <ul style="list-style: none; padding: 0; margin: 0;">
+    <li><a href="#LinkedIn" style="text-decoration: none; color: #333;">LinkedIn</a></li>
+    <li><a href="Instagram" style="text-decoration: none; color: #333;">Instagram</a></li>
+    <li><a href="Twitter" style="text-decoration: none; color: #333;">Twitter</a></li>
+  </ul>
+</div>
+<div style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+  <h3 style="margin-bottom: 15px; font-size: 16px; font-weight: bold;">Stay Tuned on Bloom</h3>
+  <h1 class="banner2-title" id="bottom-scroll" onclick="scrollToTop()">Bloom Scroll!</h1>
+</div>
+
+  </div>
+  <div style="text-align: center; margin-top: 20px; color: #666;">
+    <p style="margin: 0;">© 2025 Bloom. All Rights Reserved.</p>
+  
+</footer>
+
+<script src="scripts/chakra1.js"></script>
+<script src="scripts/chakra2.js"></script>
+<script src="scripts/chakra3.js"></script>
+<script src="scripts/chakra4.js"></script>
+<script src="scripts/chakra5.js"></script>
+<script src="scripts/chakra6.js"></script>
+<script src="scripts/chakra7.js"></script>
+<script>
+   const chakras = document.querySelectorAll('.chakra');
+const natureContent = document.getElementById('natureContent');
+const valueBoxes = document.querySelectorAll('.nature-content .value-box');
+let activeChakra = null; // Track the currently zoomed-in chakra
+
+chakras.forEach((chakra, index) => {
+    let hoverZoomTriggered = false; // Tracks if the zoom is triggered on hover
+
+    
+    // Hover effect and auto-zoom-in with scroll
+    chakra.addEventListener('mouseenter', () => {
+        const title = chakra.querySelector('.orbit .value');
+        if (title) title.style.opacity = '1';
+        chakra.style.transform = 'scale(1.5)';
+    });
+
+    chakra.addEventListener('mouseleave', () => {
+        if (!hoverZoomTriggered) {
+            const title = chakra.querySelector('.orbit .value');
+            if (title) title.style.opacity = '0';
+            chakra.style.transform = 'scale(1)';
+        }
+    });
+    // Disable main page scrolling
+function disableScroll() {
+    document.body.style.overflow = 'hidden';
+}
+
+// Enable main page scrolling
+function enableScroll() {
+    document.body.style.overflow = 'auto';
+}
+    // Trigger zoom-in when scrolling down while hovering
+    chakra.addEventListener('wheel', (event) => {
+        if (event.deltaY > 0 && !hoverZoomTriggered) {
+            if (activeChakra && activeChakra !== chakra) {
+                // Reset previously active chakra
+                resetChakra(activeChakra);
+            }
+
+            activeChakra = chakra; // Set the current chakra as active
+            chakra.style.transform = 'scale(3)';
+            natureContent.style.transform = 'scale(1)';
+            natureContent.style.opacity = '1';
+
+            // Trigger chakra-specific functionality
+            handleChakraZoomIn(index);
+            disableScroll(); // Disable main page scrolling
+
+            // Activate content boxes
+            setTimeout(() => {
+                valueBoxes.forEach((box) => {
+                    box.classList.add('active');
+                });
+            }, 500);
+
+            hoverZoomTriggered = true; // Mark as zoomed
+        }
+    });
+
+    // Zoom-out effect
+    natureContent.addEventListener('wheel', (event) => {
+        if (event.deltaY < 0 && hoverZoomTriggered && activeChakra == chakra && natureContent.scrollTop == 0 ) {
+            resetChakra(chakra);
+            activeChakra = null;
+            hoverZoomTriggered = false;
+            enableScroll(); // Re-enable main page scrolling
+        }
+    });
+
+    // Reset function
+    function resetChakra(chakra) {
+    natureContent.style.opacity = '0';
+    natureContent.style.transform = 'scale(0)';
+    chakra.style.transform = 'scale(1)';
+    // Deactivate chakra-specific functionality
+    handleChakraZoomOut(index);
+
+    // Assuming the orbit values have a specific class, such as '.orbit-value'
+    const orbitValues = document.querySelectorAll('.orbit-value'); // Modify this selector if needed
+    orbitValues.forEach((value) => {
+        value.style.transition = 'opacity 0.5s ease';  // Ensure smooth opacity transition
+        value.style.opacity = '0'; // Immediately set opacity to 0
+    });
+
+    setTimeout(() => {
+        valueBoxes.forEach((box) => {
+            box.classList.remove('active');
+        });
+    }, 500);
+}
+});
+
+// Chakra-specific zoom-in actions
+function handleChakraZoomIn(index) {
+    switch (index) {
+        case 0:
+            // Chakra 1 functionality
+            natureContent.innerHTML = `
+    <header id=header1>
+        <div class="container1">
+            <h1>Elevating Humanity Together: A Collective Journey of Co-Creation</h1>
+            <p>Join a community-driven platform where each voice contributes to a higher state of consciousness.</p>
+            <div class="cta-buttons1">
+                <a href="#join" class="cta-button1">Join the Co-Creation Movement</a>
+                <a href="#vision" class="cta-button1 secondary1">Learn About Our Vision</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about1">
+        <div class="container1">
+            <h2>Creating Unity, Together</h2>
+            <p style='color:black'>At the heart of Bloom, we believe that technology, when designed with love, can transcend traditional platforms and become a force for unity and growth. Bloom is driven by the collective wisdom and higher consciousness of its community.</p>
+        </div>
+    </section>
+
+     <section id="dynamic-content1">
+            <div class="zoom-item1 scale-in1">
+                <img src="images/chakra11.jpg" alt="Human Connections">
+            </div>
+            <div class="zoom-item1 rotate-in1">
+                <img src="images/chakra12.jpg" alt="Human Connections">
+            </div>
+            <div class="zoom-item1 slide-in1">
+                <img src="https://www.pngitem.com/pimgs/m/108-1081287_line-line-art-taco-human-connection-clip-art.png" alt="Rhythm of Life">
+            </div>
+        </section>
+        <div sytle='backgournd: white'>
+    <!-- Co-Creation Process Section -->
+    <section id="co-creation1">
+        <div class="container1">
+            <h2>How You Can Contribute</h2>
+            <ul>
+                <li>Share Your Ideas</li>
+                <li>Engage in Dialogue</li>
+                <li>Co-Design Features</li>
+                <li>Share Your Wisdom</li>
+            </ul>
+            <a href="#join" class="cta-button1">Become a Contributor</a>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials1">
+        <div class="container1" style='color:black'>
+            <h2>Voices of Unity</h2>
+            <p>"Bloom has empowered me to shape the platform and connect with like-minded individuals. Together, we’re building something greater." – Sarah T., Co-Creator</p>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog1" style='color:black'>
+        <div class="container1">
+            <h2>Expanding Consciousness Together</h2>
+            <p>Read articles and explore the philosophy behind Bloom.</p><br/>
+            <a href="#learn-more" class="cta-button1">Read Our Blog</a>
+        </div>
+    </section>
+
+    <!-- Join Section (Form) -->
+    <section id="join1">
+        <div class="container1" style='color:black'>
+            <h2>Join the Movement</h2>
+            <form class="form1" id="join-form1">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <button type="submit" class="cta-button1">Submit</button>
+            </form>
+        </div>
+    </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer id="footer1">
+        <div class="container1">
+            <p>&copy; 2025 Bloom - All Rights Reserved</p>
+            <p>Follow Us: <a href="#">Instagram</a> | <a href="#">Twitter</a> | <a href="#">Facebook</a></p>
+        </div>
+    </footer>
+
+`;
+            break;
+
+        case 1:
+            // Chakra 2 functionality
+            natureContent.innerHTML = `
+            <header id="header2">
+    <div class="header-content2">
+      <h1>Awaken Your Intuition</h1>
+      <p>Shift from metrics to impact, and align with your higher wisdom for growth and transformation.</p>
+      <a href="#impact-section" class="cta-button2">Explore Impact</a>
+    </div>
+  </header>
+
+  <!-- Third Eye Chakra Section -->
+  <section class="chakra-section2">
+    <p>The center of intuition and higher wisdom. It's time to shift our focus from traditional metrics to a more meaningful measurement of growth: Impact.</p>
+  </section>
+
+  <!-- Image Section -->
+  <section id="dynamic-content1">
+            <div class="zoom-item1 scale-in1">
+                <img src="images/chakra21.jpg" alt="Human Connections">
+            </div>
+            <div class="zoom-item1 rotate-in1">
+                <img src="images/chakra22.jpg" alt="Human Connections">
+            </div>
+            <div class="zoom-item1 slide-in1">
+                <img src="images/chakra23.jpg" alt="Rhythm of Life">
+            </div>
+        </section>
+
+  <!-- Impact Over Metrics Section -->
+  <section id="impact-section2" class="impact-section2">
+    <h2>Impact Over Metrics</h2>
+    <p>Focus on the quality of interactions, relationships, and transformation. It's time to move beyond superficial numbers and embrace a deeper, more holistic way of measuring success.</p>
+    <ul>
+      <li><strong>Intuition:</strong> Trust your inner wisdom.</li>
+      <li><strong>Transformation:</strong> Measure personal growth and change.</li>
+      <li><strong>Holistic Impact:</strong> Value the deeper effects of your actions.</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+ <footer id="footer2">
+        <div class="container2">
+            <p>&copy; 2025 Bloom - All Rights Reserved</p>
+            <p>Follow Us: <a href="#">Instagram</a> | <a href="#">Twitter</a> | <a href="#">Facebook</a></p>
+        </div>
+    </footer>
+`;
+            break;
+        case 2:
+            // Chakra 3 functionality
+            natureContent.innerHTML = `
+            <header id="header3">
+        <h1>Technology as an Exocortex</h1>
+    </header>
+
+    <section id="intro3">
+        <p>The communication, expression, and truth. By designing Bloom as an extension of the exocortex, the platform enhances the user's ability to communicate their ideas and truth authentically.</p>
+        <p>This empowers users to articulate their thoughts and connect with others in an amplified, truthful way, using technology as a tool for clear and powerful expression.</p>
+    </section>
+
+    <!-- Image Section -->
+  <section id="dynamic-content1">
+            <div class="zoom-item1 scale-in1">
+                <img src="images/chakra31.jpg" alt="Human Connections">
+            </div>
+            <div class="zoom-item1 rotate-in1">
+                <img src="images/chakra32.jpg" alt="Human Connections">
+            </div>
+            <div class="zoom-item1 slide-in1">
+                <img src="images/chakra33.jpg" alt="Rhythm of Life">
+            </div>
+        </section>
+
+    <section id="technology3">
+        <h2>Technology as an Exocortex</h2>
+        <p>Bloom acts as an exocortex, enhancing the cognitive functions associated with the Technology, particularly communication and self-expression. It enables users to interact with others on a deeper, more meaningful level.</p>
+    </section>
+
+    <section id="action3">
+        <h2>Take Action</h2>
+        <button id="button3" onclick="showMessage()">Learn More</button>
+    </section>
+
+   <!-- Footer -->
+ <footer id="footer3">
+        <div class="container3">
+            <p>&copy; 2025 Bloom - All Rights Reserved</p>
+            <p>Follow Us: <a href="#">Instagram</a> | <a href="#">Twitter</a> | <a href="#">Facebook</a></p>
+        </div>
+    </footer>
+    `;
+            break;
+        case 3:
+            natureContent.innerHTML=`
+              <!-- Header Section -->
+  <header class="header" id="header4">
+    <h1>Empowerment-Based Scrolling for Love, Compassion, and Connection</h1>
+  </header>
+
+  <!-- Content Section -->
+  <section class="content4">
+    <div class="text-block4">
+      <h2>What is Bloomscrolling?</h2>
+      <p>
+        Empowerment-based scrolling transforms the way we interact with digital content. 
+        It nourishes the heart with inspiring stories, uplifting visuals, and meaningful connections. 
+        Experience love, empathy, and gratitude with every scroll.
+      </p>
+    </div>
+
+    <div class="image-gallery4">
+      <div class="image-card4">
+        <img src="images/chakra41.jpg" alt="Image 1">
+        <p>Encourage Breaks</p>
+      </div>
+      <div class="image-card4">
+        <img src="images/chakra42.jpg" alt="Image 2">
+        <p>Promote Self-Reflection</p>
+      </div>
+      <div class="image-card4">
+        <img src="images/chakra43.jpg" alt="Image 3">
+        <p>Introduce Emotional Diversity</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+ <footer id="footer4">
+        <div class="container4">
+            <p>&copy; 2025 Bloom - All Rights Reserved</p>
+            <p>Follow Us: <a href="#">Instagram</a> | <a href="#">Twitter</a> | <a href="#">Facebook</a></p>
+        </div>
+    </footer>
+  `;
+  break;
+  case 4:
+    natureContent.innerHTML=`
+    <!-- Header -->
+    
+  <header id="header5">
+    <div class="container5">
+             <h1>Technology as an Exocortex: Amplify Communication & Expression</h1>
+        </div>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <!-- Intro Section -->
+    <section class="intro5">
+      <h2>Express Your Authentic Self</h2>
+      <p>
+        Governs communication and truth. Bloom amplifies your ability 
+        to articulate your thoughts and connect with others authentically. Technology 
+        becomes an extension of your exocortex, empowering clear and impactful expression.
+      </p>
+    </section>
+
+    <!-- Feature Section -->
+    <section class="features5">
+      <div class="feature-card5">
+        <img src="images/chakra51.jpg" alt="Authentic Expression">
+        <h3>Authentic Expression</h3>
+        <p>Use technology to share your unique voice and connect authentically with the world.</p>
+      </div>
+      <div class="feature-card5">
+        <img src="images/chakra52.jpg" alt="Amplified Communication">
+        <h3>Amplified Communication</h3>
+        <p>Amplify your ability to articulate complex ideas with tools that enhance clarity.</p>
+      </div>
+      <div class="feature-card5">
+        <img src="images/chakra53.jpg" alt="Meaningful Connections">
+        <h3>Meaningful Connections</h3>
+        <p>Forge deeper relationships through truthful and resonant interactions.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+ <footer id="footer5">
+        <div class="container5">
+            <p>&copy; 2025 Bloom - All Rights Reserved</p>
+            <p>Follow Us: <a href="#">Instagram</a> | <a href="#">Twitter</a> | <a href="#">Facebook</a></p>
+        </div>
+    </footer>
+  `;
+  break;
+  case 5:
+    natureContent.innerHTML=`
+    <header id="header6">
+    <h1>Decentralized Architecture: Embracing Creativity & Fluidity</h1>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <!-- Intro Section -->
+    <section class="intro6">
+      <h2>Flow with Creativity</h2>
+      <p>
+        Inspire creativity, fluidity, and the freedom to explore new ideas. 
+        Decentralized architecture mirrors this flow, creating a system that evolves naturally 
+        and encourages innovation.
+      </p>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features6">
+      <div class="feature-card6">
+        <img src="images/chakra61.jpg" alt="Fluidity">
+        <h3>Fluidity</h3>
+        <p>Experience a seamless and adaptable system where ideas flow like water.</p>
+      </div>
+      <div class="feature-card6">
+        <img src="images/chakra62.jpeg" alt="Creativity">
+        <h3>Creativity</h3>
+        <p>Empower your imagination with tools designed for unrestricted expression.</p>
+      </div>
+      <div class="feature-card6">
+        <img src="images/chakra63.jpg" alt="Decentralization">
+        <h3>Decentralization</h3>
+        <p>Break free from hierarchies and embrace the freedom of a decentralized system.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+ <footer id="footer6">
+        <div class="container6">
+            <p>&copy; 2025 Bloom - All Rights Reserved</p>
+            <p>Follow Us: <a href="#">Instagram</a> | <a href="#">Twitter</a> | <a href="#">Facebook</a></p>
+        </div>
+    </footer>
+
+  `;
+  break;
+  case 6:
+    natureContent.innerHTML=`
+    <header id=header7>
+        <div class="container7">
+             <h1>Redesigning User Engagement for Stability and Connection</h1>
+        </div>
+        </div>
+    </header>
+  <!-- Main Section -->
+  <main>
+    <!-- Intro Section -->
+    <section class="intro7">
+      <h2>Grounded in Connection</h2>
+      <p>
+        Inspires stability, grounding, and a sense of belonging. 
+        Redesigning user engagement fosters meaningful interactions, providing a 
+        solid foundation for personal growth and connection.
+      </p>
+    </section>
+
+    <!-- Engagement Features -->
+    <section class="features7">
+      <div class="feature7">
+        <img src="images/chakra71.jpg" alt="Meaningful Connections">
+        <h3>Meaningful Connections</h3>
+        <p>Build authentic relationships and feel a sense of belonging in the community.</p>
+      </div>
+      <div class="feature7">
+        <img src="images/chakra72.jpg" alt="Stable Foundations">
+        <h3>Stable Foundations</h3>
+        <p>Experience a secure, distraction-free environment that supports your growth.</p>
+      </div>
+      <div class="feature7">
+        <img src="images/chakra73.jpg" alt="Growth-Oriented Engagement">
+        <h3>Growth-Oriented Engagement</h3>
+        <p>Focus on interactions that nourish and ground you in your true self.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Call to Action -->
+  <section class="cta7">
+    <h2>Join the Community</h2>
+    <p>Become a part of a platform designed for stability, security, and authentic connection.</p>
+    <button>Get Started</button>
+  </section>
+
+  <!-- Footer -->
+ <footer id="footer7">
+        <div class="container7">
+            <p>&copy; 2025 Bloom - All Rights Reserved</p>
+            <p>Follow Us: <a href="#">Instagram</a> | <a href="#">Twitter</a> | <a href="#">Facebook</a></p>
+        </div>
+    </footer>
+  `;
+  break;
+    }
+
+}
+
+// Chakra-specific zoom-out actions
+function handleChakraZoomOut(index) {
+    console.log(`Chakra ${index + 1} zoom-out triggered.`);
+    // Add chakra-specific reset behavior here, if needed
+    
+}
+window.onbeforeunload = function () {
+            window.scrollTo(0, 0);
+        };
+        function scrollToTop() {
+    // Scroll to the top of the page
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+   // Function to change theme to predefined colors
+   function changeTheme(bgColor, textColor) {
+            const banner = document.getElementById('banner');
+            const themeSection = document.getElementById('theme-section');
+            const test = document.getElementsByClassName('testimonials-home');
+            banner.style.backgroundColor = bgColor;
+            themeSection.style.backgroundColor = bgColor;
+            banner.style.color = textColor;
+            themeSection.style.color = textColor;
+            test.style.backgroundColor=bgColor;
+        }
+
+        // Function to update preview color
+        function updatePreview(type) {
+            const preview = type === 'bg' ? document.getElementById('bg-preview') : document.getElementById('text-preview');
+            const colorInput = type === 'bg' ? document.getElementById('bg-color').value : document.getElementById('text-color').value;
+            preview.style.backgroundColor = colorInput;
+        }
+
+        // Function to apply custom colors chosen by the user
+        function applyCustomColors() {
+            const bgColor = document.getElementById('bg-color').value;
+            const textColor = document.getElementById('text-color').value;
+            changeTheme(bgColor, textColor);
+        }
+
+        function revealOnScroll() {
+            const sections = document.querySelectorAll('.section');
+
+            sections.forEach((section) => {
+                const rect = section.getBoundingClientRect();
+                if (rect.top < window.innerHeight - 100) {
+                    section.classList.add('visible');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', revealOnScroll);
+
+        // Trigger on load
+        revealOnScroll();
+
+
+</script>
+
+</body></html>

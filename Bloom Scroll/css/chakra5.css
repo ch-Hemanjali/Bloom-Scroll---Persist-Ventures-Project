@@ -1,0 +1,102 @@
+
+  
+  #header5 {
+    background: linear-gradient(to right,  #ff6347,  #ff6347);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  #header5 h1 {
+    font-size: 3em;
+    margin: 0;
+    color: white;
+  }
+  
+  #header5 p {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  
+  /* Intro Section */
+  .intro5 {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .intro5 h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color:  #ff6347;
+  }
+  
+  .intro5 p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #555;
+  }
+  
+  /* Features Section */
+  .features5 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+  
+  .feature-card5 {
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .feature-card5 img {
+    width: 100%;
+    transition: transform 0.3s;
+  }
+  
+  .feature-card5 h3 {
+    color: #ff6347;
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .feature-card5 p {
+    padding: 10px;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .feature-card5:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .feature-card5:hover img {
+    transform: scale(1.1);
+  }
+  
+/* Footer */
+#footer5 {
+  background-color: #ff6347;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#footer5 a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+#footer5 a:hover {
+  text-decoration: underline;
+}

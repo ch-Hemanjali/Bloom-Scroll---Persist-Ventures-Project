@@ -1,0 +1,103 @@
+
+  
+  #header6 {
+    background: linear-gradient(to right, #c42f83,#c42f83);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  #header6 h1 {
+    font-size: 3em;
+    margin: 0;
+    color: white;
+  }
+  
+  #header6 p {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  
+  /* Intro Section */
+  .intro6 {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .intro6 h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #c42f83;
+  }
+  
+  .intro6 p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #555;
+  }
+  
+  /* Features Section */
+  .features6 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+  
+  .feature-card6 {
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .feature-card6 img {
+    width: 100%;
+    transition: transform 0.3s, filter 0.3s;
+  }
+  
+  .feature-card6 h3 {
+    color: #c42f83;
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .feature-card6 p {
+    padding: 10px;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .feature-card6:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .feature-card6:hover img {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+  }
+  
+/* Footer */
+#footer6 {
+  background-color: #c42f83;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#footer6 a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+#footer6 a:hover {
+  text-decoration: underline;
+}
